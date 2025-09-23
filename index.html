@@ -1,3 +1,45 @@
-<h1>Hello, GitHub Pages!</h1>
-<h1>Resume</h1>
-<img src="images/resume.png" alt=Resume">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            display: flex; /* ใช้ Flexbox สำหรับการจัดหน้า */
+            justify-content: center; /* จัดเนื้อหาให้อยู่ตรงกลางในแนวนอน */
+            align-items: center; /* จัดเนื้อหาให้อยู่ตรงกลางในแนวตั้ง */
+            min-height: 100vh; /* กำหนดความสูงขั้นต่ำของ body ให้เท่ากับความสูงของ viewport */
+            margin: 0;
+            background-color: #f4f4f4; /* สีพื้นหลัง */
+        }
+        .container {
+            text-align: center; /* จัดข้อความและรูปภาพให้อยู่กึ่งกลาง */
+            max-width: 800px; /* กำหนดความกว้างสูงสุดของคอนเทนเนอร์ */
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            max-width: 100%; /* ทำให้รูปไม่กว้างเกินคอนเทนเนอร์ */
+            height: auto; /* รักษาสัดส่วนของรูปภาพ */
+            border-radius: 5px; /* เพิ่มขอบมนให้รูปภาพ */
+            margin-top: 20px; /* เพิ่มระยะห่างด้านบนของรูปภาพ */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้รูปภาพ */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hello, GitHub Pages!</h1>
+        <h1>Resume</h1>
+        <img src="images/resume.png" alt="Resume">
+    </div>
+
+</body>
+</html>
